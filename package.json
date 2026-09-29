@@ -1,0 +1,22 @@
+{
+  "name": "my-ai-researches-playbook",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI Web Dev Briefing에서 다룬 코드 예제를 실제로 실행/검증해보는 플레이그라운드. 매일자 브리핑의 실습 코드는 researches/{YYYY-MM-DD}/ 아래에 쌓입니다.",
+  "type": "module",
+  "scripts": {
+    "example": "tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.0.0",
+    "@vercel/sandbox": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "openai": "^5.0.0"
+  }
+}
