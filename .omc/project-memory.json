@@ -1,0 +1,62 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1792423081705,
+  "projectRoot": "/Users/ian/workspace/my-ai-researches-playbook",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {
+      "example": "tsx",
+      "typecheck": "tsc --noEmit"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "researches": {
+      "path": "researches",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1792423081685,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
